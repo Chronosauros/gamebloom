@@ -5,7 +5,7 @@
 **[gamebloom.vercel.app](https://gamebloom.vercel.app)**
 
 <p align="center">
-  <img src="docs/images/trailer-watch-feed.jpg" width="820" alt="Trailer Watch: trailer cards with the kind of trailer, the game, the studio, genre and platforms">
+  <img src="docs/images/home.jpg" width="820" alt="gamebloom home page: the day's featured trailer as a big screen, filters, and the newest trailers grouped by day">
 </p>
 
 > This repository is a showcase. The source code is private; the site itself is public and free to use.
@@ -21,12 +21,13 @@ studios - often the same cut uploaded three times by three different accounts.
 
 ## What it does
 
-**Trailer Watch** (the home page) follows the official YouTube channels of platforms, publishers and
-studios. Every new trailer shows up with the game, the kind of trailer (announce, launch, gameplay,
-release date), Steam data, genre and platforms. Copies of the same trailer are folded into one card, so the
-feed shows each trailer once.
+**Trailers** (the home page) follows the official YouTube channels of platforms, publishers and
+studios. The day's biggest trailer opens the page on a big screen; under it, every new trailer shows up
+with the game, the studio, the kind of trailer (announce, launch, gameplay, release date) and the
+platforms, newest first and grouped by day. A trailer plays in place, with the genre and store links
+underneath. Copies of the same trailer are folded into one, so the feed shows each trailer once.
 
-**Shows** index a showcase game by game. Each card carries the developer, publisher, genre, platforms,
+**Shows** index a showcase game by game. Each game carries the developer, publisher, genre, platforms,
 player modes, release date, store links and the trailer, and every field traces back to a source. Two
 orders: **show order** for catching up on what you missed, and **soonest release** - the order the
 broadcast hides.
@@ -35,7 +36,7 @@ broadcast hides.
 - [Nintendo Direct, 9 September 2026](https://gamebloom.vercel.app/shows/nintendo-direct-2026-09-09) - 61 games
 
 <p align="center">
-  <img src="docs/images/onl-2026-cards.jpg" width="820" alt="Opening Night Live 2026: game cards with genre, players, platforms and release date">
+  <img src="docs/images/onl-2026.jpg" width="820" alt="Opening Night Live 2026: the running order, each game with its studio, kind of trailer, release date and platforms">
 </p>
 
 ## How the data is built
@@ -52,14 +53,14 @@ broadcast hides.
   timestamp - the field stays empty and the record says why.
 
 <p align="center">
-  <img src="docs/images/trailer-watch.jpg" width="540" alt="Trailer Watch home page: Every new game trailer, one page">
+  <img src="docs/images/home-feed.jpg" width="540" alt="The trailer grid: newest first, with filters for the kind of trailer and the platform">
   &nbsp;
-  <img src="docs/images/mobile-feed.jpg" width="200" alt="Trailer Watch on a phone">
+  <img src="docs/images/mobile-home.jpg" width="200" alt="gamebloom on a phone">
 </p>
 
 ## Stack
 
-Next.js (App Router), React, TypeScript, Tailwind, deployed on Vercel. Pages are static; a scheduled
+Next.js (App Router), React, TypeScript and CSS modules, deployed on Vercel. Pages are static; a scheduled
 collector refreshes the trailer data, and no video player loads until you click a trailer.
 
 ---
