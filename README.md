@@ -1,11 +1,11 @@
-# gamebloom
+# gameblooms
 
 **Every new game trailer on one page, and every game from the big showcases, indexed one by one.**
 
-**[gamebloom.vercel.app](https://gamebloom.vercel.app)**
+**[gameblooms.com](https://gameblooms.com)**
 
 <p align="center">
-  <img src="docs/images/home.jpg" width="820" alt="gamebloom home page: the day's featured trailer as a big screen, filters, and the newest trailers grouped by day">
+  <img src="docs/images/home.jpg" width="820" alt="gameblooms home page: the day's featured trailer as a big screen, filters, and the newest trailers grouped by day">
 </p>
 
 > This repository is a showcase. The source code is private; the site itself is public and free to use.
@@ -33,8 +33,8 @@ player modes, release date, store links and the trailer, and every field traces 
 orders: **show order** for catching up on what you missed, and **soonest release** - the order the
 broadcast hides.
 
-- [gamescom Opening Night Live 2026](https://gamebloom.vercel.app/shows/gamescom-onl-2026) - 72 games
-- [Nintendo Direct, 9 September 2026](https://gamebloom.vercel.app/shows/nintendo-direct-2026-09-09) - 61 games
+- [gamescom Opening Night Live 2026](https://gameblooms.com/shows/gamescom-onl-2026) - 72 games
+- [Nintendo Direct, 9 September 2026](https://gameblooms.com/shows/nintendo-direct-2026-09-09) - 61 games
 
 <p align="center">
   <img src="docs/images/onl-2026.jpg" width="820" alt="Opening Night Live 2026: the running order, each game with its studio, kind of trailer, release date and platforms">
@@ -56,7 +56,7 @@ broadcast hides.
 <p align="center">
   <img src="docs/images/home-feed.jpg" width="540" alt="The trailer grid: newest first, with filters for the kind of trailer and the platform">
   &nbsp;
-  <img src="docs/images/mobile-home.jpg" width="200" alt="gamebloom on a phone">
+  <img src="docs/images/mobile-home.jpg" width="200" alt="gameblooms on a phone">
 </p>
 
 ## Stack
@@ -67,4 +67,4 @@ collector refreshes the trailer data, and no video player loads until you click 
 ---
 
 Made by [Chronosaur](https://github.com/Chronosauros). Game names, artwork and trailers belong to their
-respective owners; gamebloom links to the official sources.
+respective owners; gameblooms links to the official sources.
