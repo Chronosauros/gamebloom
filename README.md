@@ -24,8 +24,9 @@ studios - often the same cut uploaded three times by three different accounts.
 **Trailers** (the home page) follows the official YouTube channels of platforms, publishers and
 studios. The day's biggest trailer opens the page on a big screen; under it, every new trailer shows up
 with the game, the studio, the kind of trailer (announce, launch, gameplay, release date) and the
-platforms, newest first and grouped by day. A trailer plays in place, with the genre and store links
-underneath. Copies of the same trailer are folded into one, so the feed shows each trailer once.
+platforms, newest first and grouped by day. Most trailers play in place, with the genre and store links
+where they exist; the rest open on YouTube. Copies of the same trailer are folded into one, so the feed
+shows each trailer once.
 
 **Shows** index a showcase game by game. Each game carries the developer, publisher, genre, platforms,
 player modes, release date, store links and the trailer, and every field traces back to a source. Two
